@@ -1,5 +1,9 @@
-n=int(input("Enter the number:"))
-if( n%2==0 ):
-  print("The number is even")
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+if x > y:
+    print("First number is greater")
+elif x < y:
+    print("First number is smaller")
 else:
-  print("The number is odd")
+    print("Both numbers are equal")
